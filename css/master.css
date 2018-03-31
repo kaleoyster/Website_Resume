@@ -8,12 +8,13 @@ html {
 }
 .prof-box{
 	width:400px;
-	height:400px;
+	height:450px;
 	background:rgba(0,0,0,0.4);
 	padding: 40px;
 	color:white;
 	margin: 0 auto;
-	margin-top: 140px;
+	margin-top: 100px;
+	text-align: center;
 }
 .prof-pic {
 	border-radius:50%;
@@ -33,3 +34,19 @@ p {
 	letter-spacing: 1;
 
 }
+
+.social-icons{
+ 	font-size:40px;
+
+}
+
+.social-icons a {
+	color: white;
+}
+
+.line-break {
+	margin: 0 auto;
+	width:300px;
+	border-top:1px solid white;
+}
+
