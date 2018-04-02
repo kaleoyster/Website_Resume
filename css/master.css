@@ -6,8 +6,9 @@ html {
   background-size: cover;
   font-family: 'Helvetica Neue', sans-serif;
 }
+
 .prof-box{
-	width:400px;
+	width:800px;
 	height:450px;
 	background:rgba(0,0,0,0.4);
 	padding: 40px;
@@ -18,8 +19,8 @@ html {
 }
 .prof-pic {
 	border-radius:50%;
-	height:200px;
-	width:200px;
+	height:170px;
+	width:170px;
 }
 
 h1 {
