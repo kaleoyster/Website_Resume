@@ -1,5 +1,5 @@
-html { 
-  background: url(../images/background1.jpg) no-repeat center center fixed; 
+html {
+  background: url(../images/background_mountStars.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -7,15 +7,21 @@ html {
   font-family: 'Helvetica Neue', sans-serif;
 }
 
+
 .prof-box{
 	width:800px;
 	height:450px;
-	background:rgba(0,0,0,0.4);
+	background:rgba(0,0,0,0.5);
 	padding: 40px;
 	color:white;
 	margin: 0 auto;
 	margin-top: 100px;
 	text-align: center;
+  border-top:1px solid #555;
+  border-bottom: 1px solid #555;
+  border-left: 1px solid #555;
+  border-right: 1px solid #555;
+  border-radius:
 }
 .prof-pic {
 	border-radius:50%;
@@ -51,3 +57,64 @@ p {
 	border-top:1px solid white;
 }
 
+
+
+
+
+#top-nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background:rgba(0,0,0,0.4);
+    text-align: center;
+    border-top:1px solid #555;
+    border-bottom: 1px solid #555;
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+
+}
+
+#top-nav-bar a {
+    display: block;
+    color: white;
+    padding: 15px 40px;
+    text-decoration: none;
+    b
+}
+
+
+/* Change the link color on hover */
+
+#top-nav-bar a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+#top-nav-bar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li:last-child {
+  float: left;
+}
+li a {
+    display: block;
+    padding: 8px;
+
+}
