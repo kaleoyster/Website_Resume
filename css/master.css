@@ -21,7 +21,7 @@ html {
   border-bottom: 1px solid #555;
   border-left: 1px solid #555;
   border-right: 1px solid #555;
-  border-radius:
+  border-radius:25px;
 }
 .prof-pic {
 	border-radius:50%;
@@ -44,8 +44,11 @@ p {
 
 .social-icons{
  	font-size:40px;
-
+  display:inline-block;
+  animation: wiggle .1s infinite alternate;
+  transform-origin: center 50%;
 }
+
 
 .social-icons a {
 	color: white;
@@ -68,10 +71,13 @@ p {
     width: auto;
     background:rgba(0,0,0,0.4);
     text-align: center;
-    border-top:1px solid #555;
-    border-bottom: 1px solid #555;
-    border-left: 1px solid #555;
-    border-right: 1px solid #555;
+
+    top: 0;
+    width: 100%;
+
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 
 }
 
@@ -80,7 +86,7 @@ p {
     color: white;
     padding: 15px 40px;
     text-decoration: none;
-    b
+
 }
 
 
@@ -110,11 +116,14 @@ li {
     float: right;
 }
 
-li:last-child {
-  float: left;
-}
 li a {
     display: block;
     padding: 8px;
 
+}
+
+@keyframes wiggle {
+  0% { transform: rotate(-1deg); }
+  50% { transform: rotate(1deg); }
+  100% { transform: rotate(2deg); }
 }
